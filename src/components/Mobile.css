@@ -1,0 +1,68 @@
+.mobile {
+  height: 464px;
+}
+.titimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mtitle {
+  height: 45px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140.69%;
+  color: #263238;
+  text-align: center;
+  margin-bottom: 3px;
+}
+.curve {
+  width: 90px;
+  height: 10px;
+  margin: 0px auto;
+}
+.mcon{
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+  width: 230px;
+  height: 284px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mimg {
+    margin: auto;
+    width: 125px;
+    height: 120px;
+    margin-bottom: 7px;
+}
+.mtit {
+    /* border: 2px solid black; */
+  height: 24px;
+  margin: 7px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #ee4248;
+}
+.mtit2 {
+    margin: 0px;
+    /* border: 2px solid black; */
+  /* height: 24px; */
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.simg{
+    height: 35px;
+    cursor: pointer;
+    margin: 12px;
+}

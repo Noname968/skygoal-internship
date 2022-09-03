@@ -1,0 +1,55 @@
+.product {
+  height: 450px;
+  padding-top: 50px;
+}
+.prtitle {
+  height: 43px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  text-align: center;
+  color: #1f2e35;
+}
+.prcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pimg {
+  width: 80px;
+  height: 80px;
+}
+.protitle {
+  /* border: 2px solid black; */
+  margin: 5px 0;
+  width: 220px;
+  height: 37px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 123.69%;
+  color: #ee4248;
+}
+.contp {
+  /* border: 2px solid black; */
+  margin: 10px 0;
+  width: 319px;
+  height: 108px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+}
+.pread {
+  margin: 10px 0;
+  padding: 8px 16px;
+  width: 119px;
+  height: 42px;
+  background: #ee4248;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+}

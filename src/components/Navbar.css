@@ -1,0 +1,48 @@
+.navbar {
+  height: 77px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.con {
+  width: 58%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: center;
+  /* border: 2px solid black; */
+}
+.atag {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(31, 46, 53, 0.8);
+  padding: 0 2px;
+  margin: 0 20px;
+}
+.sel {
+  border: none;
+  padding: 0 2px;
+  margin: 22px 0px 20px 20px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgba(31, 46, 53, 0.8);
+  cursor: pointer;
+}
+.navright{
+  position: absolute;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 12%;
+}
+.navimg{
+  padding:0 12px;
+  width: 20px;
+}

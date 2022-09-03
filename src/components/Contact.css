@@ -1,0 +1,77 @@
+.contact {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 25px;
+  height: 160px;
+  /* border: 2px solid black; */
+  position: relative;
+}
+.conright {
+  width: 500px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.coni1,
+.coni2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.conimg {
+  margin: 0 8px;
+  padding: 0;
+}
+.conmid {
+  position: absolute;
+  right: 45%;
+  bottom: 4%;
+}
+.contactinfo {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #263238;
+  margin: 15px 0;
+}
+.phone,
+.fax,
+.email {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+  margin: 0;
+}
+.conleft {
+  position: absolute;
+  bottom: 4%;
+  left: 20px;
+}
+.ltit {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #263238;
+}
+.lsub {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+  margin-bottom: 0;
+}
+.copy {
+  margin-top: 10px;
+  height: 54px;
+  background: #ee4248;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
