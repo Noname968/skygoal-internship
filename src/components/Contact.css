@@ -1,5 +1,5 @@
 .contact {
-  width: 75%;
+  width: 80%;
   margin: auto;
   margin-bottom: 25px;
   height: 160px;
@@ -7,7 +7,7 @@
   position: relative;
 }
 .conright {
-  width: 500px;
+  max-width: 500px;
   display: flex;
   position: absolute;
   bottom: 0;
@@ -29,7 +29,7 @@
 }
 .conmid {
   position: absolute;
-  right: 45%;
+  right: 42%;
   bottom: 4%;
 }
 .contactinfo {
@@ -74,4 +74,33 @@
   align-items: center;
   justify-content: center;
   color: white;
+}
+@media(max-width:1275px){
+  .contact{
+    width: 94%;
+  }
+}
+@media(max-width:1125px){
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    position: unset;
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .conleft,.conmid,.conright{
+    position: unset;
+    margin: 10px 0;
+  }
+  .conright{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .conimg{
+    width: 80px;
+    height: 35px;
+  }
 }

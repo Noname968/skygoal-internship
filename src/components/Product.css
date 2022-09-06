@@ -1,5 +1,5 @@
 .product {
-  height: 450px;
+  height: 100%;
   padding-top: 50px;
 }
 .prtitle {
@@ -52,4 +52,37 @@
   color: white;
   font-weight: 400;
   font-size: 15px;
+}
+.bl{
+  display: none;
+}
+@media(max-width:1145px){
+  .prcon{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+  }
+  .p1{
+    margin: 20px 20px;
+    /* padding: 0 10px; */
+  }
+}
+@media(max-width:750px){
+  .product{
+    padding-top: 10px;
+  }
+  .p1{
+    position: relative;
+  }
+  .p1::after{
+    content: "";
+    border-bottom: 0.8px solid #ee4248;
+    position: absolute;
+    bottom: -5%;
+    width: 100%;
+    overflow: hidden;
+    left: 0;
+  }
 }

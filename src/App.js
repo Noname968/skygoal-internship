@@ -8,7 +8,7 @@ import Product from './components/Product'
 
 function App() {
   return (
-    <div>
+    <div style={{overflow:"hidden"}}>
       <Navbar/>
       <Home/>
       <Next/>

@@ -25,7 +25,7 @@ span {
   color: #ee4248;
 }
 .psub {
-  width: 520px;
+  max-width: 520px;
   height: 58px;
   font-weight: 400;
   font-size: 20px;
@@ -34,7 +34,7 @@ span {
 }
 .read {
   padding: 12px 32px;
-  width: 161px;
+  max-width: 161px;
   height: 53px;
   background: #ee4248;
   color: white;
@@ -47,4 +47,58 @@ span {
 .left{
     padding: 20px;
     /* border: 2px solid black; */
+}
+@media(max-width:1245px){
+  .ptitle{
+    font-size: 35px;
+    max-width: 420px;
+    height: 100%;
+  }
+  .psub{
+    height: 100%;
+  }
+  .pana{
+    max-width: 500px;
+  }
+}
+@media(max-width:1000px){
+  .ptitle{
+    margin: 5px 0;
+  }
+  .psub{
+    margin-top: 3px;
+  }
+  .housecon{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .house{
+    height: 100%;
+  }
+  .right{
+    padding: 10px;
+  }
+}
+@media(max-width:552px){
+  .pana{
+    max-width: 300px;
+  }
+  .left{
+    width: 100vw;
+  }
+  .ptitle{
+    max-width: 350px;
+    font-size: 30px;
+  }
+  .psub{
+    max-width: 350px;
+    font-size: 17px;
+  }
+  .read{
+    padding: 10px 26px;
+  }
 }

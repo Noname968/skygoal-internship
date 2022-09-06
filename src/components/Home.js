@@ -15,11 +15,12 @@ function Home() {
                     <button className="read">Read More</button>
                 </div>
                 <div className="right">
-                    <img src={pana} alt="" />
+                    <img src={pana} alt="" className='pana'/>
                 </div>
             </div>
         </div>
     )
 }
+
 
 export default Home

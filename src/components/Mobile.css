@@ -1,5 +1,6 @@
 .mobile {
-  height: 464px;
+  height: 100%;
+  width: 100vw;
 }
 .titimg {
   display: flex;
@@ -21,11 +22,11 @@
   height: 10px;
   margin: 0px auto;
 }
-.mcon{
-    margin: 50px auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
+.mcon {
+  margin: 50px auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
 }
 .card {
   width: 230px;
@@ -36,15 +37,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 30px;
 }
 .mimg {
-    margin: auto;
-    width: 125px;
-    height: 120px;
-    margin-bottom: 7px;
+  margin: auto;
+  width: 125px;
+  height: 120px;
+  margin-bottom: 7px;
 }
 .mtit {
-    /* border: 2px solid black; */
+  /* border: 2px solid black; */
   height: 24px;
   margin: 7px;
   font-weight: 700;
@@ -53,16 +55,44 @@
   color: #ee4248;
 }
 .mtit2 {
-    margin: 0px;
-    /* border: 2px solid black; */
+  margin: 0px;
+  /* border: 2px solid black; */
   /* height: 24px; */
   font-weight: 700;
   font-size: 20px;
   letter-spacing: 0.1px;
   color: #252b42;
 }
-.simg{
-    height: 35px;
-    cursor: pointer;
-    margin: 12px;
+.simg {
+  height: 35px;
+  cursor: pointer;
+  margin: 12px;
+}
+@media (max-width: 1400px) {
+  .mcon {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    justify-content: center;
+  }
+  .card {
+    margin: 20px 30px;
+  }
+}
+@media (max-width: 725px) {
+  .mcon {
+    /* border: 2px solid black; */
+    max-width: 100%;
+    margin: 20px auto;
+  }
+  .card {
+    margin: 20px 20px;
+  }
+  .mtitle {
+    font-size: 28px;
+  }
+  .curve {
+    width: 70px;
+    height: 8px;
+  }
 }

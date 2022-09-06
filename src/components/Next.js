@@ -7,7 +7,7 @@ function Next() {
     <div className='next'>
       <div className="conn">
       <div className="nleft">
-        <img src={pana1} alt="" />
+        <img src={pana1} alt="" className='pana1'/>
       </div>
       <div className="nright">
         <p className="titl">Welcome to <span> Dwidasa Samsara Indonesia (DSI)</span></p>

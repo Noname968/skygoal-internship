@@ -6,6 +6,9 @@
   align-items: center;
   position: relative;
 }
+.hamico{
+  display: none;
+}
 .con {
   width: 58%;
   margin: auto;
@@ -45,4 +48,59 @@
 .navimg{
   padding:0 12px;
   width: 20px;
+}
+@media(max-width:1225px){
+  .con{
+    /* border: 2px solid black; */
+    margin: 0;
+    position: absolute;
+    left: 10%;
+  }
+}
+@media(max-width:990px){
+  .con{
+    margin: 0 10px;
+    position: absolute;
+    left: 5%;
+  }
+  .navright{
+    right: 8%;
+  }
+  .hamim{
+    width: 35px;
+    height: 35px;
+  }
+  .hamico{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+    display: block;
+    z-index: 999;
+  }
+  .con{
+    display: none;
+  }
+  .conmobil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 11%;
+    width: 100vw;
+    height: 90vh;
+    left: 0;
+    right: 0;
+    background: rgb(231, 231, 231);
+    padding: 90px 0;
+    z-index: 234;
+  }
+  .atag{
+    font-size: 25px;
+    padding: 15px;
+  }
+  .sel{
+    font-size: 25px;
+    padding: 0 20px;
+  }
 }

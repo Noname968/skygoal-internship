@@ -1,13 +1,19 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Navbar.css'
 import house from '../images/house.png'
 import alter from '../images/alter.png'
 import mail from '../images/mail.png'
+import ham from '../images/ham.png'
 
 function Navbar() {
+  const [show,setshow] = useState(false)
+
   return (
     <nav className='navbar'>
-      <div className="con">
+      <div className='hamico' onClick={()=>setshow(!show)}>
+        <img src={ham} alt="" className='hamim' />
+      </div>
+      <div className={show ? "conmobil" : "con"}>
         <a href="/"  className='atag'>Services</a>
         <a href="/" className='atag'>Product</a>
         <a href="/" className='atag'>Technology</a>
